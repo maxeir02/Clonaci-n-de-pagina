@@ -1,0 +1,649 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+ 
+  .bloque01 {
+    width: 100%;
+    height: 950px;
+    background-color: #0071f8;
+    border-end-start-radius: 150px;
+    border-end-end-radius: 150px;
+    margin: 15px;
+    
+  }
+.barra_navegacion {
+    width: 100%;
+    height: 90px;
+    padding-top: 32px;
+}
+.logo {
+    float: left;
+    margin-left: 600px;
+}
+.navegacion {
+    float: right;
+    width: 50%;
+    height: inherit;
+    padding: 6px 0;
+    padding-right: 600px;
+}
+  
+.navegacion ul li {
+    float: right;
+    margin: 20px;
+    list-style: none;
+    color: white;
+    margin: 19px 25px 0px 0px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    padding-top: 5px;
+}
+.navegacion a {
+    color:white;
+    text-decoration: none;
+    
+}
+.navegacion li:first-child {
+    background-color: #ee626b;
+}
+.home {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+.our_shop:hover, .product:hover, .contact:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+    
+}
+.navegacion .product {
+    width: 135px;
+}
+.navegacion .home {
+    width: 80px;
+}
+.welcome {
+    width: 50%;
+    height: 868px;
+    padding-left: 600px;
+    padding-top: 200px;
+    float: left;
+    color: white;
+}
+.welcome h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.welcome h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.welcome p {
+    margin-bottom: 90px;
+    font-size: 17px;
+}
+.bloque01 .welcome .linea {
+    width: 202px;
+    height: 0px;
+    display: block;
+    margin-top: -50px;
+    margin-left: 137px;
+}
+.bloque01 .welcome .primer_texto {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 70px;
+}
+.imagen01 {
+    float: left;
+    padding-top: 95px;
+    padding-left: 220px;
+}
+.imagen01 img{
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.porcentaje_imagen01 {
+    margin-top: -74px;
+    margin-left: -26px;
+    width: 100px;
+    height: 100px;
+}
+.porcentaje_40 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ee626b;
+    font-size: 28px;
+    color: #fff;
+    padding-top: 35px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.precio_imagen01 {
+    margin-top: -514px;
+    margin-left: 325px;
+    width: 100px;
+    height: 100px;
+}
+.precio_20 {
+    width: 69px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    background-color:#0071f8;
+    font-size: 22px;
+    color: #fff;
+    padding-top: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.buscar {
+    float: left;
+    height: 53px;
+    
+}
+.type_something{
+    width: 365px;
+    height: 49px;
+    border-radius: 30px;
+    border: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.boton_something {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: #ee626b;
+    background-color: #ee626b;
+    color: white;
+    font-size: 15px;
+    margin-left: -70px;
+}
+.boton_something:hover {
+    background-color: #0071f8;
+}
+.seccion_juegos {
+    width: 100%;
+    height: 200px;
+    margin: 15px;
+}
+.seccion_juegos .seccion01 {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.seccion_juegos .seccion02 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.seccion_juegos .seccion01 .cubo01, .cubo02{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    margin-top: -100px;
+    padding-top: 65px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.164);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+.seccion_juegos .seccion02 .cubo03, .cubo04 {
+    float: right;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    margin-top: -100px;
+    padding-top: 65px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+}
+.cubo_logo {
+    background-color: #0071f8;
+    width: 90px;
+    height: 90px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 78px;
+    margin-top: -35px;
+    margin-bottom: 23px;
+}
+.cubo_logo:hover {
+    background-color: #ee626b;
+}
+
+
+
+
+
+
+.bloque02 h5 {
+    padding-left: 635px;
+    margin-bottom: 15px;
+    color: #ee626b;
+    font-size: 15px;
+}
+.bloque02 .titulo_bloque02 {
+    padding-left: 635px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50PX;
+}
+.bloque02 .titulo_bloque02 h2{
+    float: left;
+    font-size: 36px;
+}
+.bloque02 .titulo_bloque02 a{
+    float: right;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    margin-right: 605px;
+    padding-top: 16px;
+    background-color: #ee626b;
+    color: white;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.bloque02 .titulo_bloque02 a:hover{
+    background-color: #0071f8;
+}
+
+.juegos_descuento {
+    width: 100%;
+    height: 285px;
+    margin: 15px;
+    
+}
+.juegos_descuento .juegos_descuento_izq {
+    width: 50%;
+    height: 100%;
+    float: right;
+    
+}
+.juegos_descuento .juegos_descuento_der {
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+.juegos_descuento .juegos_descuento_izq .juego_descuento01, .juego_descuento02{
+    float: left;
+    width: 300px;
+    height: 311px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #eeeeee;
+    border-radius: 25px;
+    
+}
+.juegos_descuento .juegos_descuento_der .juego_descuento03, .juego_descuento04 {
+    float: right;
+    width: 300px;
+    height: 311px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #eeeeee;
+    border-radius: 25px;
+}
+
+.juegos_descuento img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.juegos_descuento .pie_juego_descuento{
+    padding-left: 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 9px;
+}
+.juegos_descuento h4{
+    padding-left: 25px;
+    font-size: 17px;
+}
+.juegos_descuento  h4:hover{
+    color:#0071f8;
+}
+
+
+
+
+
+.bloque03 {
+    background-color: #f7f7f7;
+    margin-top: 125px;
+    padding-top: 100px;
+    width: 100%;
+    height: 645px;
+    border-radius: 150px;
+}
+.bloque03 h5 {
+    padding-left: 635px;
+    margin-bottom: 15px;
+    color: #ee626b;
+    font-size: 15px;
+}
+.bloque03 .titulo_bloque03 {
+    padding-left: 635px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50PX;
+}
+.bloque03 .titulo_bloque03 h2{
+    float: left;
+    font-size: 36px;
+}
+.bloque03 .titulo_bloque03 a{
+    float: right;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    margin-right: 605px;
+    padding-top: 16px;
+    background-color: #ee626b;
+    color: white;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.bloque03 .titulo_bloque03 a:hover{
+    background-color:#0071f8;
+}
+
+.juegos_top_game {
+    width: 100%;
+    height: 200px;
+    margin: 15px;
+}
+.juegos_top_game .top_game_izq {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.juegos_top_game .top_game_der {
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+.juegos_top_game .top_game_izq .top_game01, .top_game02{
+    float: left;
+    width: 193px;
+    height: 294px;
+    background-color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.juegos_top_game .top_game_der .top_game03, .top_game04 {
+    float: right;
+    width: 193px;
+    height: 294px;
+    background-color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.juegos_top_game img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.bloque03 .pie_top_games {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 5px;
+}
+.bloque03 h4{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.bloque03 .juegos_top_game a{
+    font-size: 15px;
+    text-align: center;
+    width: 93px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ee626b;
+    color: #fff;
+    border-radius: 20px;
+    display: block;
+    margin-left: 50px;
+    margin-bottom: -20px;
+}
+.bloque03 h4:hover{
+    color:#0071f8;
+}
+.bloque03 .juegos_top_game a:hover {
+    background-color: #0071f8;
+}
+
+
+
+
+
+.cuarto_bloque {
+    margin-top: 120px;
+}
+.cuarto_bloque .titulo_cuarto_bloque {
+    text-align: center;
+}
+.cuarto_bloque .titulo_cuarto_bloque h5{
+    color: #ee626b;
+    font-size: 15px;
+}
+.cuarto_bloque .titulo_cuarto_bloque h2{
+    font-size: 36px;
+    margin-top: 20px;
+}
+.top_categorias {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    padding-left: 635px;
+    text-align: center;
+}
+.top_categorias div{
+    float: left;
+    text-align: center;
+    width: 235px;
+    height: 235px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0071f8;
+    border-radius: 25px;
+    color: white;
+}
+.top_categorias p {
+    width: 100%;
+    height: 60px;
+    border-radius: 57px;
+    padding: 22px;
+    font-size: 17px;
+}
+.top_categorias img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+
+
+
+
+.ultimas_imagenes {
+    width: 100%;
+    height: 200px;
+    margin: 15px;
+    margin-top: 120px;
+    padding-left: 477px;
+}
+
+
+
+
+
+.ultimas_imagenes .imagen_final01{
+    float: left;
+    width: 503px;
+    height: 503px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 25px;
+    margin-top: 80px;
+    padding: 80px;
+    margin-left: 10px;
+}
+.ultimas_imagenes  .imagen_final01 h6{
+    color: #ee626b;
+    font-size: 15px;
+}
+.ultimas_imagenes  .imagen_final01 h2{
+    font-size: 36px;
+    margin-top: 20px;
+    line-height: 44px;
+}
+.ultimas_imagenes  .imagen_final01 h2 span{
+    color: #0071f8;
+}
+.ultimas_imagenes  .imagen_final01 p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+    margin-top: 30px;
+}
+.ultimas_imagenes  .imagen_final01 a{
+    display: block;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    padding-top: 16px;
+    background-color: #ee626b;
+    color: white;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-top: 35px;
+}
+.ultimas_imagenes  .imagen_final01 a:hover{
+    background-color: #0071f8;
+}
+
+
+
+
+
+.ultimas_imagenes .imagen_final02{
+    float: left;
+    width: 508px;
+    height: 508px;
+    margin-left: 512px;
+    margin-right: -884px;
+}
+.ultimas_imagenes .imagen_final02 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+
+
+
+.ultimas_imagenes .imagen_final03{
+    float: left;
+    margin-top: 187px;
+    width: 506px;
+    height: 394px;
+    padding: 80px 60px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 25px;
+    margin-left: 229px;
+}
+.ultimas_imagenes  .imagen_final03 h6{
+    color: #ee626b;
+    font-size: 15px;
+}
+.ultimas_imagenes  .imagen_final03 h2{
+    font-size: 36px;
+    margin-top: 20px;
+    line-height: 44px;
+}
+.ultimas_imagenes  .imagen_final03 h2 span{
+    color: #0071f8;
+}
+.ultimas_imagenes  .imagen_final03 p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+    margin-top: 30px;
+}
+.ultimas_imagenes  .imagen_final03 input{
+    float:left;
+    width: 338px;
+    height: 50px;
+    border-radius: 30px;
+    border: white;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.ultimas_imagenes  .imagen_final03 a{
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 170px;
+    background-color: #ee626b;
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-right: -9px;
+}
+.ultimas_imagenes  .imagen_final03 a:hover{
+    background-color: #0071f8;
+}
+
+
+
+.pie_de_pagina {
+    width: 100%;
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #0071f8;
+    border-radius: 150px 150px 0px 0px;
+}
+.pie_de_pagina p{
+    color: white;
+    font-size: 16px;
+}
+
+.pie_de_pagina a{
+    color: white;
+    margin-left: 15px;
+    font-size: 16px;
+}
